@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+}
+
+form {
+	width: 60%;
+	background-color: hsl(193, 100%, 96%);
+	border: 1.2rem solid grey;
+	border-radius: 3px;
+	padding: 2rem 0 5rem 5rem;
+	margin: auto;
+	font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+	margin: auto;
+	font-size: 1.5em;
+	padding-bottom: 2rem;
+}
+
+button {
+	background-color: hsl(322, 100%, 66%);
+	padding: 0.7rem 2.5rem;
+	border-radius: 1rem;
+	border: none;
+	color: hsl(193, 100%, 96%);
+	font-weight: x-small;
+	font-weight: 700;
+	cursor: pointer;
+	margin-top: 0.5rem;
+	font-family: "Open Sans", sans-serif;
+}
+
+button:hover {
+	background-color: hsl(322, 87%, 82%);
+	transition: 0.7s;
+	cursor: pointer;
+}
