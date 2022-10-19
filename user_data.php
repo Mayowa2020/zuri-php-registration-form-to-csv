@@ -14,7 +14,7 @@ if (isset($_POST['submit']))
 
 
 // Open/Create the file and append data
-$registration_form = fopen('registration_form.csv', 'a');
+$registration_form = fopen('userdata.csv', 'a');
 
 if ($registration_form) {
     echo 'File Opened...';

@@ -55,7 +55,6 @@
         <button type="submit" name="submit">Register</button>
     </form>
 
-
 </body>
 
 </html>
