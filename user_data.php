@@ -9,8 +9,7 @@ if (isset($_POST['submit']))
     $country = $_POST['country'];
 
     $form_data = array($name, $email, $date_of_birth, $gender, $country);
-    print_r($form_data);
-
+  
         // Open/Create the file and append data
     $registration_form = fopen('userdata.csv', 'a');
 
@@ -20,6 +19,8 @@ if (isset($_POST['submit']))
         if(fputcsv($registration_form, $form_data) ) {
             echo 'File Updated...';
             fclose( $registration_form);  // close file
+            
+            print_r($form_data); 
         } else {
             echo 'File Not Updated...';
         }

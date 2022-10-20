@@ -35,8 +35,8 @@
         <select name="country" id=" country">
             <option value="">Select a Country</option>
             <option value="Benin">Benin</option>
-            <option value="Mali">Ghana</option>
-            <option value="Sierra-Loene">Mali</option>
+            <option value="Mali">Mali</option>
+            <option value="Sierra-Loene">Sierra-Loene</option>
             <option value="Burkina Faso">Burkina Faso</option>
             <option value="Mauritania">Mauritania</option>
             <option value="Ivory Coast">Ivory Coast</option>
@@ -45,7 +45,7 @@
             <option value="Nigeria">Nigeria</option>
             <option value="Gambia">Gambia</option>
             <option value="Senegal">Senegal</option>
-            <option value="Sierra Leone">Sierra Leone</option>
+            <option value="Cameroun">Cameroun</option>
             <option value="Guinea">Guinea</option>
             <option value="Liberia">Liberia</option>
             <option value="Togo">Togo</option>
